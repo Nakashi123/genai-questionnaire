@@ -82,7 +82,7 @@ st.markdown(
 <style>
     /* レイアウト全体 */
     .block-container {
-        padding-top: 0.5rem;
+        padding-top: 2rem;
         padding-bottom: 2rem;
         max-width: 1400px;
     }
@@ -103,14 +103,9 @@ st.markdown(
         align-items: center;
     }
 
-    /* バージョンラベル（青） */
+    /* バージョンラベル（非表示） */
     .version-label {
-        background: #2563EB;
-        color: white;
-        padding: 6px 32px;
-        font-size: 17px;
-        font-weight: 700;
-        white-space: nowrap;
+        display: none;
     }
 
     /* フォーム本体 */
